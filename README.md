@@ -1,78 +1,108 @@
 # 🏠 ApnaStay – Airbnb Clone
 
-ApnaStay is a full stack web application inspired by Airbnb where users can explore and list properties for stay.
+ApnaStay is a full-stack web application inspired by Airbnb where users can explore, list, and review rental properties.
+This project allows users to create listings, view property details, and interact with other users through reviews.
 
-This project is built using the MERN stack and follows MVC architecture.
-
----
-
-## 🚀 Tech Stack
-
-* Frontend: EJS, CSS, Bootstrap
-* Backend: Node.js, Express.js
-* Database: MongoDB
-* Image Storage: Cloudinary
-* Authentication: Passport.js
+The application is built using the **Node.js, Express, MongoDB stack** and follows the **MVC architecture**.
 
 ---
 
-## ✨ Features
+## 🚀 Features
 
-* User authentication (Signup/Login)
-* Add new property listings
-* Upload property images
-* Edit and delete listings
-* View all available stays
-* Responsive UI
-
----
-
-## 📁 Project Structure
-
-controllers/ → Handles business logic of the application
-models/ → MongoDB schemas and database models
-routes/ → Application routes and endpoints
-views/ → EJS templates for frontend UI
-public/ → Static files like CSS, JS, images
-utils/ → Helper functions and utilities
-init/ → Initial database seed data
+* 🔐 User Authentication (Signup / Login)
+* 🏡 Create, Edit, and Delete Property Listings
+* ⭐ Add and Delete Reviews
+* 🗺️ Map Integration for Property Location
+* ☁️ Image Upload using Cloudinary
+* 📱 Responsive UI
+* ⚠️ Error Handling and Flash Messages
 
 ---
 
-## 📄 Important Files
+## 🛠 Tech Stack
 
-app.js → Main server file that starts the application
-cloudConfig.js → Cloudinary configuration for image uploads
-middleware.js → Custom middleware functions
-schema.js → Validation schemas for request data
-package.json → Project dependencies and scripts
-.env → Environment variables (not uploaded to GitHub)
+**Frontend**
+
+* HTML
+* CSS
+* Bootstrap
+* EJS Templates
+
+**Backend**
+
+* Node.js
+* Express.js
+
+**Database**
+
+* MongoDB
+* Mongoose
+
+**Other Tools**
+
+* Cloudinary (Image Storage)
+* Map Integration
+* Express-session
+* Passport.js (Authentication)
 
 ---
+
+## 📂 Project Structure
+
+```
+majorProject
+│
+├── controllers
+├── models
+├── routes
+├── views
+├── public
+├── utils
+├── init
+│
+├── app.js
+├── middleware.js
+├── schema.js
+├── cloudConfig.js
+├── package.json
+└── README.md
+```
+
+---
+
 
 ## ⚙️ Installation
 
-Clone the repository:
-
-git clone https://github.com/your-username/apnastay.git
-
-Install dependencies:
+Install dependencies
 
 npm install
 
-Run the server:
+Create a .env file and add required variables
+
+CLOUDINARY_CLOUD_NAME=your_cloud_name
+CLOUDINARY_KEY=your_key
+CLOUDINARY_SECRET=your_secret
+DB_URL=your_database_url
+SESSION_SECRET=your_secret
+
+Run the project
 
 node app.js
 
----
 
-## 👩‍💻 Author
+## 🌟 Future Improvements
+
+* Payment Integration
+* Booking System
+* Advanced Search Filters
+* Wishlist Feature
+
+---
 
 ## 👩‍💻 Author
 
 **Khushi Tiwari**
 
-Full Stack MERN Developer (Learning)
+If you like this project, feel free to ⭐ the repository.
 
-GitHub: https://github.com/your-github-username
-
+---
