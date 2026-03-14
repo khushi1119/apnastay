@@ -1,0 +1,186 @@
+body {
+  font-family: "Plus Jakarta sans", sans-serif !important;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.container {
+  flex: 1;
+}
+.navbar {
+  height: 5rem;
+  background-color: white;
+}
+.logo-icon {
+  font-size: 1.4rem;
+  color: #ff385c; /* Airbnb red */
+  line-height: 1;
+}
+
+.brand-text {
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: 0.6px;
+  color: #111;
+}
+.navbar {
+  height: 72px;
+}
+.nav-link {
+  color: #222222 !important;
+}
+.f-info-links a {
+  text-decoration: none;
+  color: #222222;
+}
+.f-info-links a:hover {
+  text-decoration: underline;
+}
+.f-info-links,
+.f-info-socials,
+.f-info-brand {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.f-info-socials i {
+  font-size: 1.5rem;
+  margin-right: 0.55rem;
+}
+.f-info {
+  text-align: center;
+  height: 8rem;
+  background-color: #dfd9d9;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: space-evenly;
+}
+/*cards*/
+.listing-card {
+  border: none !important;
+  margin-bottom: 12px;
+}
+.card-img-top {
+  border-radius: 1rem !important;
+  width: 100% !important;
+  object-fit: cover !important;
+}
+.card-body {
+  padding: 0 !important;
+}
+.card-text {
+  font-weight: 400 !important;
+}
+.listing-link {
+  text-decoration: none;
+}
+
+/*card effect*/
+.card-img-overlay {
+  opacity: 0;
+}
+.card-img-overlay:hover {
+  opacity: 0.2;
+  background-color: white;
+}
+/* new page */
+.add-btn {
+  background-color: #ff385c !important;
+  border: none !important;
+}
+/* Edit page */
+.edit-btn {
+  background-color: #ff385c !important;
+  border: none !important;
+}
+/* show page */
+.show-img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.btns {
+  display: flex;
+}
+.show-card {
+  padding-left: 0;
+  padding-right: 0;
+}
+.review-card {
+  padding: 16px;
+}
+
+.review-comment {
+  font-size: 0.95rem;
+  margin-top: 5px;
+  margin-bottom: 12px;
+}
+
+.starability-result {
+  transform: scale(0.9);
+}
+
+.card {
+  border-radius: 12px;
+}
+
+.card:hover {
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+  transition: 0.2s;
+}
+
+/*Map*/
+#map {
+  height: 400px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* FILTER CONTAINER */
+.filters{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:25px;
+  padding:20px;
+}
+
+/* SINGLE FILTER */
+.filter{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  font-size:14px;
+  color:#555;
+}
+
+/* MOBILE RESPONSIVE */
+@media (max-width:768px){
+
+  .filters{
+    justify-content:flex-start;
+    overflow-x:auto;
+    flex-wrap:nowrap;
+    gap:18px;
+  }
+
+  .filter{
+    min-width:70px;
+    font-size:12px;
+  }
+
+}
+
+/* SMALL MOBILE */
+@media (max-width:480px){
+
+  .filter{
+    min-width:60px;
+    font-size:11px;
+  }
+
+}
