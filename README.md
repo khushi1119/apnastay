@@ -1,4 +1,4 @@
-# 🏠 ApnaStay – Airbnb Clone
+# ApnaStay – Airbnb Clone
 
 ApnaStay is a full-stack web application inspired by Airbnb where users can explore, list, and review rental properties.
 This project allows users to create listings, view property details, and interact with other users through reviews.
@@ -7,19 +7,19 @@ The application is built using the **Node.js, Express, MongoDB stack** and follo
 
 ---
 
-## 🚀 Features
+## Features
 
-* 🔐 User Authentication (Signup / Login)
-* 🏡 Create, Edit, and Delete Property Listings
-* ⭐ Add and Delete Reviews
-* 🗺️ Map Integration for Property Location
-* ☁️ Image Upload using Cloudinary
-* 📱 Responsive UI
-* ⚠️ Error Handling and Flash Messages
+* User Authentication (Signup / Login)
+* Create, Edit, and Delete Property Listings
+* Add and Delete Reviews
+* Map Integration for Property Location
+* Image Upload using Cloudinary
+* Responsive UI
+* Error Handling and Flash Messages
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 **Frontend**
 
@@ -47,7 +47,7 @@ The application is built using the **Node.js, Express, MongoDB stack** and follo
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 majorProject
@@ -71,7 +71,7 @@ majorProject
 ---
 
 
-## ⚙️ Installation
+## Installation
 
 Install dependencies
 
@@ -90,7 +90,7 @@ Run the project
 node app.js
 
 
-## 🌟 Future Improvements
+## Future Improvements
 
 * Payment Integration
 * Booking System
@@ -99,7 +99,7 @@ node app.js
 
 ---
 
-## 👩‍💻 Author
+## Author
 
 **Khushi Tiwari**
 
